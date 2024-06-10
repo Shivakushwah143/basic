@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ges number game</title>
+
+</head>
+<body style="background-color: azure;">
+    <div class="reper" id="raper">
+        <h2>number guessing game</h2>
+        <p>try to guess number between 1 to 99  </p>
+        <p>you have 10 attempts </p>
+    </div>
+
+
+    <form action="">
+        <label for="guessFiled " id="guess " > guess a number </label>
+        <input type="text" id = " guessFiled" class =" guessFiled">
+        <input type="submit" id = " submit" class =" guessFiled" value="submit guess">
+    </form>
+
+ <div class="resultpress">
+    <p class=" guess ">previous guess </p>
+    <p class=" last guess  ">previous guess </p>
+    <p class="low or hi"></p>
+ </div>
+
+</body>
+<script>
+const randomnum = console.log (parseInt(Math.random() * 100  +1 ))
+
+ const submit = document.querySelector('#submit')
+ const userinput = document.querySelector('#guessFiled')
+ const guessSlot = document.querySelector('.guess')
+const lastresult = document.querySelector('last guess')
+</script>
+</html>

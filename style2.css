@@ -1,0 +1,17 @@
+body {
+    background-color: pink;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+button {
+    border-radius: 5px;
+    background-color: aqua;
+    margin-left: 80px;
+}
+.container{
+    border:  2px solid black;
+    padding: 10px;
+    margin: 10px;
+    background-color:  rgb(242, 186, 82);
+    border-radius: 5px;
+}
